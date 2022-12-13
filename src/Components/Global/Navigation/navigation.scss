@@ -1,0 +1,25 @@
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    &_link {
+        border: 2px white solid;
+        padding: 15px;
+        border-radius: 100%;
+        cursor: pointer;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+}
+
+.logo-container {
+
+    &_img {
+        object-fit: contain;
+        width: 100%;
+        height: 215px;
+    }
+}

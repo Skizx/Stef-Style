@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,10 +7,27 @@
     text-decoration: none;
 }
 
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
-    background: rgb(127,103,122);
-    background: -moz-linear-gradient(150deg, rgba(127,103,122,1) 0%, rgba(197,104,224,1) 100%);
-    background: -webkit-linear-gradient(150deg, rgba(127,103,122,1) 0%, rgba(197,104,224,1) 100%);
-    background: linear-gradient(150deg, rgba(127,103,122,1) 0%, rgba(197,104,224,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7f677a",endColorstr="#c568e0",GradientType=1);
+    background: #C97E84;
+    color: #FFFFFF;
+    font-family: 'Dancing Script';
+}
+
+li {
+    list-style: none;
+}
+
+link {
+    text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
 }
