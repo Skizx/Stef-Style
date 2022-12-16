@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 0px 0px 10px 0px;
 
     &_link {
         border: 2px white solid;
@@ -12,14 +12,22 @@
         cursor: pointer;
         text-decoration: none;
         color: #FFFFFF;
+        transition: transform 500ms ease-in-out, background-position 800ms ease-in-out, box-shadow 500ms linear;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 
 .logo-container {
 
+    display: flex;
+    justify-content: center;
+
     &_img {
-        object-fit: contain;
-        width: 100%;
+        object-fit: cover;
+        width:fit-content;
         height: 215px;
     }
 }
