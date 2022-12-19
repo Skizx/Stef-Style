@@ -1,0 +1,23 @@
+.carousel-container {
+    position: relative;
+
+    &_contact {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 5px;
+        border: 4px #FFFFFF solid;
+
+        &:hover {
+            border: 4px #C97E84 ridge;
+        }
+
+        &--link {
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+    }
+}

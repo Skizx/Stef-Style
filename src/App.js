@@ -8,7 +8,7 @@ import Presentation from "./Pages/Presentation";
 
 function App() {
   return (
-    <div className="wrapper">
+    <div>
       <header>
         <Navigation />
       </header>
