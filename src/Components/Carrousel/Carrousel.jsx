@@ -22,7 +22,7 @@ const Carrousel = () => {
             <Carousel>
                 {carouselPics.map((slides) => (
                     <div className='carousel-container' key={slides.id}>
-                        <img src={slides.image} alt="" />
+                        <img className='carousel-container_img' src={slides.image} alt="" />
                         <div className='carousel-container_contact'>
                             <Link to='/Contact' className='carousel-container_contact--link'>Contactez-nous pour un rendez-vous</Link>
                         </div>

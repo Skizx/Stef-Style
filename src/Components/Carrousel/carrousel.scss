@@ -1,5 +1,10 @@
 .carousel-container {
     position: relative;
+    background: grey;
+
+    &_img {
+        mix-blend-mode: multiply;
+    }
 
     &_contact {
         position: absolute;
