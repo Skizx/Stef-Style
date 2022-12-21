@@ -13,9 +13,6 @@ const Navigation = () => {
     const showMobilebar = () => setSiderbar(!sidebar)
     return (
         <>
-        <div className='logo-container'>
-            <img src={Stephlogo} className="logo-container_img" alt="Logo stephstyle" />
-        </div>
             <div className='navbar'>
                 <Link to="#" className='mobile-bars'>
                     <FaIcons.FaBars onClick={showMobilebar}/>
@@ -41,6 +38,9 @@ const Navigation = () => {
                     })}
                 </ul>
             </nav>
+            <div className='logo-container'>
+            <img src={Stephlogo} className="logo-container_img" alt="Logo stephstyle" />
+        </div>
         </>
     );
 };
