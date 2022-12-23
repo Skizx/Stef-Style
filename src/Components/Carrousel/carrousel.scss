@@ -1,6 +1,6 @@
 .carousel-container {
     position: relative;
-    background: grey;
+    background: #484848;
 
     &_img {
         mix-blend-mode: multiply;
@@ -15,7 +15,7 @@
         border: 4px #FFFFFF solid;
 
         &:hover {
-            border: 4px #C97E84 ridge;
+            border: 4px #874040 ridge;
         }
 
         &--link {

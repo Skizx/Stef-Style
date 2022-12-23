@@ -23,7 +23,7 @@ const Navigation = () => {
                         <Link to="#" className='mobile-bars mobile-bars_exit'>
                             <AiIcons.AiOutlineClose />
                         </Link>
-                        <p>Steph'Style Coiffure</p>
+                        <h1>Steph'Style Coiffure</h1>
                     </li>
                     {NavigationData.map((item, index) => {
                         return(
