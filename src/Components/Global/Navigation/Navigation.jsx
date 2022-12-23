@@ -17,7 +17,6 @@ const Navigation = () => {
                 <Link to="#" className='mobile-bars'>
                     <FaIcons.FaBars onClick={showMobilebar}/>
                 </Link>
-            </div>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu_items' onClick={showMobilebar}>
                     <li className="navbar-toggle">
@@ -38,6 +37,7 @@ const Navigation = () => {
                     })}
                 </ul>
             </nav>
+            </div>
             <div className='logo-container'>
             <img src={Stephlogo} className="logo-container_img" alt="Logo stephstyle" />
         </div>
